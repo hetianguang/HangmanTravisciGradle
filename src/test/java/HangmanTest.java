@@ -30,6 +30,7 @@ public class HangmanTest {
         assertThat(hangman.guessed_chars(),is("aeioup"));
         assertThat(hangman.Times(),is(5));
         assertThat(hangman.show_current_word(),is("app_e"));
+        System.out.println("5555t");
     }
     @Test
     public void shuold_get_guessWord_status_when_guess_the_word_is_e(){

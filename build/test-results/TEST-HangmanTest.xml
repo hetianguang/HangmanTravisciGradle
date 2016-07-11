@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HangmanTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-07-11T12:17:20" hostname="tiger-PC" time="0.009">
+  <properties/>
+  <testcase name="should_get_attribute_when_the_word_is_apple" classname="HangmanTest" time="0.005"/>
+  <testcase name="shuold_get_successful_status_when_guess_the_word_is_p_and_l" classname="HangmanTest" time="0.001"/>
+  <testcase name="shuold_get_failed_status" classname="HangmanTest" time="0.0"/>
+  <testcase name="should_get_attribute_when_the_word_is_orange" classname="HangmanTest" time="0.0"/>
+  <testcase name="shuold_get_guessWord_status_when_guess_the_word_is_e" classname="HangmanTest" time="0.0"/>
+  <testcase name="shuold_get_guessWord_status_when_guess_the_word_is_l" classname="HangmanTest" time="0.001"/>
+  <testcase name="shuold_get_guessWord_status_when_guess_the_word_is_p" classname="HangmanTest" time="0.0"/>
+  <system-out><![CDATA[22222
+11111
+you guessed!!!
+4444
+3333
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

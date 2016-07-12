@@ -77,7 +77,7 @@ public class HangmanTest {
         hangman.guess('c');
         hangman.guess('s');
         assertThat(hangman.guessed_chars(),is("aeioup"));
-        assertThat(hangman.Times(),is(1));
+        assertThat(hangman.Times(),is(3));
         assertThat(hangman.show_current_word(),is("app_e"));
         assertThat(hangman.Game_Status(),is("you have failed"));
         out.println("11111");

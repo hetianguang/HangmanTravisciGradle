@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static java.lang.System.out;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
@@ -30,7 +31,8 @@ public class HangmanTest {
         assertThat(hangman.guessed_chars(),is("aeioup"));
         assertThat(hangman.Times(),is(5));
         assertThat(hangman.show_current_word(),is("app_e"));
-        System.out.println("5555t");
+        out.println("5555t");
+        out.println("dddddddddd");
     }
     @Test
     public void shuold_get_guessWord_status_when_guess_the_word_is_e(){
@@ -41,7 +43,7 @@ public class HangmanTest {
         assertThat(hangman.Times(),is(5));
         assertThat(hangman.show_current_word(),is("app_e"));
         assertThat(hangman.Game_Status(),is("you need to continue"));
-        System.out.println("4444");
+        out.println("4444");
     }
     @Test
     public void shuold_get_guessWord_status_when_guess_the_word_is_l(){
@@ -51,7 +53,7 @@ public class HangmanTest {
         assertThat(hangman.Times(),is(5));
         assertThat(hangman.show_current_word(),is("a__le"));
         assertThat(hangman.Game_Status(),is("you need to continue"));
-        System.out.println("3333");
+        out.println("3333");
     }
 
     @Test
@@ -63,7 +65,7 @@ public class HangmanTest {
         assertThat(hangman.Times(),is(4));
         assertThat(hangman.show_current_word(),is("apple"));
         assertThat(hangman.Game_Status(),is("you are successful"));
-        System.out.println("22222");
+        out.println("22222");
     }
     @Test
     public void shuold_get_failed_status(){
@@ -78,6 +80,6 @@ public class HangmanTest {
         assertThat(hangman.Times(),is(0));
         assertThat(hangman.show_current_word(),is("app_e"));
         assertThat(hangman.Game_Status(),is("you have failed"));
-        System.out.println("11111");
+        out.println("11111");
     }
 }
